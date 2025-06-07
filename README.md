@@ -67,7 +67,6 @@ r-------- rwxrwxrwx  r-x-wxrw-
 - **25 smtp**:  **Protocolo** estándar utilizado para **enviar correos electrónicos** a través de **internet**
 - **8080 http**:  **Protocolo** de **comunicación** que se utiliza para **transferir información entre un cliente (como un navegador web)** y **un servidor web**
 - **443 ssl/tls -> https**:  **Versión segura** del **protocolo HTTP**
-- **445 microsoft-ds**:  **Protocolo** de **red** que se usa para **compartir recursos (archivos, impresoras)** en **redes Windows**
 - **3306 mysql**:  **Sistema** de **gestión** de **base de datos relacional**
 
 # Escalada de privilegios
