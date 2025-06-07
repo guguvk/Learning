@@ -1,22 +1,22 @@
 # Comandos básicos
-- `cd` Cambiar de directorio `cd Directorio_al_que_se_accedera` y si haces tal cual `cd` te lleva al PATH del usuario
-- `cd..` Retroceder un directorio. Si estamos en `/home/gugu/a/b/c` y hacemos `cd ../..` cambiamos a `/home/gugu/a` (retrocedemos 2 directorios "`../`" hace referencia a que directorio)
-- `mkdir` Crear un directorio `mkdir Directorio_a_crear`
-- `rm` Eliminar directorio `rm Directorio_a_eliminar`
-- `mv` Mover archivos o carpetas de lugar `mv archivo_que_se_movera lugar_a_donde_se_movera`
-- `mv` Renombrar archivos o carpetas `mv carpeta_que_se_renombrara nuevo_nombre_de_carpeta`
-- `cp` Copia archivos o carpetas `archivo_que_se_copiara lugar_donde_se_copiara` "lugar_donde_se_copiara" (es carpeta o ruta absoluta "`/esto/es/la/ruta/absoluta`")
-- `clear` Limpiar la pantalla (quitar todo lo que se mostraba y lo anterior)
-- `ls` Listar lo que hay en el directorio actual, `ls -l` Listar lo que hay y ver mas informacion (permisos, usuario propietario, grupo, tamaño y si es un enlace simbolico)
-- `cat` Visualizar lo que tiene dentro de un archivo (sin necesidad de abrirlo)
-- `touch` crea un archivo (sin necesidad de abrir y volver a guardar)
-- `grep` Extraer texto de un archivo (puede estar dentro de un archivo directamente o un archivo dentro de una carpeta)
-- `pwd` Te muestra la ruta actual donde estas ubicado
-- `whoami` Te muestra el usuario actual (el que estas usando)
-- `id` Muestra información sobre la identidad de un usuario y los grupos a los que pertenece
-- `*` Se refiere a 0 o mas (basicamente, todo)
-- `>` Redirige la salida de un comando a otro comando o a un archivo
-- `<` Hace la entrada de una cadena a un comando
+- `cd` **Cambiar** de **directorio** `cd Directorio_al_que_se_accedera` y si haces tal cual `cd` **te lleva** al **PATH** del **usuario**
+- `cd..` **Retroceder** un **directorio**. **Si estamos** en `/home/gugu/a/b/c` y **hacemos** `cd ../..` **cambiamos** a `/home/gugu/a` (retrocedemos 2 directorios "`../`" hace **referencia** a **1 directorio**)
+- `mkdir` **Crear** un **directorio** `mkdir Directorio_a_crear`
+- `rm` **Eliminar directorio** `rm Directorio_a_eliminar`
+- `mv` **Mover archivos** o **carpetas** de **lugar** `mv archivo_que_se_movera lugar_a_donde_se_movera`
+- `mv` **Renombrar archivos** o **carpetas** `mv carpeta_que_se_renombrara nuevo_nombre_de_carpeta`
+- `cp` **Copia archivos** o **carpetas** `archivo_que_se_copiara lugar_donde_se_copiara` "lugar_donde_se_copiara" (es **carpeta** o **ruta absoluta** "`/esto/es/la/ruta/absoluta`")
+- `clear` **Limpiar** la **pantalla** (**quitar todo** lo que se **mostraba** y lo **anterior**)
+- `ls` **Listar** lo que **hay** en el **directorio actual**, `ls -l` **Listar** lo que **hay** y ver mas **informacion** (permisos, usuario propietario, grupo, tamaño y si es un enlace simbolico)**
+- `cat` **Visualizar** lo que **tiene dentro** de un **archivo** (**sin necesidad de abrirlo**)
+- `touch` **crea** un **archivo** (**sin necesidad** de **abrir** y **volver** a **guardar**)
+- `grep` **Extraer texto** de un **archivo** (**puede** estar **dentro** de un **archivo directamente** o en un **archivo dentro** de una **carpeta**)
+- `pwd` **Te muestra** la **ruta actual** donde estas **ubicado**
+- `whoami` **Te muestra** el **usuario actual** (**el** que estas **usando**)
+- `id` **Muestra información** sobre la **identidad** de un **usuario** y los **grupos** a los que **pertenece**
+- `*` **Se** refiere a **0** o **mas** (**basicamente**, **todo**)
+- `>` **Redirige** la **salida** de un **comando** a otro **comando** o a un **archivo**
+- `<` **Hace** la **entrada** de una **cadena** a un **comando**
 
 # Conceptos basicos
 - **Que** es un **Rabbit Hole**?  R= **Estado** o **situación** complejamente **extraño** o **difícil**
