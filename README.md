@@ -19,24 +19,24 @@
 - `<` Hace la entrada de una cadena a un comando
 
 # Conceptos basicos
-- **Que** es un **Rabbit Hole**?
-- **Que** es **estar** en **escucha**?
-- **Que** es el **fuzzing**?
-- **Que** es un **exploit**?
-- **Que** es **openvpn**?
-- **En linux importan** las **extensiones**?
-- **Que** es el **passwd**?
-- **Que** es el **shadow**?
-- **Que** es **PoC**?
-- **Que** es **rustscan**?
-- **Que** es **nmap**?
-- **Cuantos puertos existen**?
-- **Que** es **dirsearch**?
-- **Al entrar** a una **pagina web** que debemos **buscar**?
-- **Que** es **Netcat**?
-- **Que** es una **tty**?
-- **Por que** exportar las **variables SHELL** y **TERM**?
--  **Al** hacer **sudo -l** si no arroja **información** que **significa**?
+- **Que** es un **Rabbit Hole**?  R= **Estado** o **situación** complejamente **extraño** o **difícil**
+- **Que** es **estar** en **escucha**?  R= **Estar esperando** una **conexión**
+- **Que** es el **fuzzing**?  R= **Buscar directorios ocultos** mediante **Fuerza Bruta**
+- **Que** es un **exploit**?  R= **código** o **programa malicioso diseñado** para **aprovechar vulnerabilidades** en un **sistema**
+- **Que** es **openvpn**?  R= **Programa** con el cual **enlazaremos** nuestra **ip** para poder tener **conexion** con las **maquinas**
+- **En linux importan** las **extensiones**?  R= **Realmente NO**
+- **Que** es el **passwd**?  R= **El archivo** donde se **encuentran** los **usuario** del **sistema**
+- **Que** es el **shadow**?  R= **El archivo** donde se **guardan** las **contraseñas** del los **usuarios**
+- **Que** es **PoC**?  R= **validación preliminar** de que un **método** es **viable**
+- **Que** es **rustscan**?  R= **Herramienta** que **escanea puertos** (corre por detras **Nmap**)
+- **Que** es **nmap**?  R= **Herramienta** que **escanea puertos**
+- **Cuantos puertos existen**?  R= **65,535**
+- **Que** es **dirsearch**?  R= **Herramienta** que realiza **búsquedas** de **fuerza bruta** en **directorios web**
+- **Al entrar** a una **pagina web** que debemos **buscar**?  R= **Formularios**, **Directorios ocultos**, **HTML (Credenciales)**, **Servicio**, **Version**, **Base de datos**
+- **Que** es **Netcat**?  R= **Herramienta** de **administracion remota**
+- **Que** es una **tty**?  R= **La comunicación** entre los **dispositivos** de **terminal** y los **programas** que los **leen**
+- **Por que** exportar las **variables SHELL** y **TERM**?  R= **Porque** si no se **exportan**, **no** seria una **terminal 100% funcional** y **podria** dar **problemas** con algunos **comandos**
+-  **Al** hacer **sudo -l** si arroja **información** que **significa** "**(ALL : ALL) NOPASSWD: "Binario/script"**" **ALL** -> **Cualquier usuario**  **ALL** -> **Cualquier grupo**  **NOPASSWD** -> **No** te **pedira contraseña**  **"Binario/script"** -> **El** que **puedes ejecutar** con **sudo**
 
 # Permisos
 - Se dividen en **3**
@@ -58,22 +58,22 @@ propiertario  grupo  otros
 r-------- rwxrwxrwx  r-x-wxrw-
 ```
 # Puertos
-- **21 ftp**
-- **22 ssh**
-- **23 telnet**
-- **25 smtp**  #Servicio por el cual corren los puertos
-- **8080 http**
-- **443 ssl/tls -> https**
-- **445 microsoft-ds**
-- **3306 mysql**
+- **21 ftp**:  **Protocolo** de **red** estándar que se utiliza para **transferir archivos**
+- **22 ssh**:  **Protocolo** de **red** que permite **conexiones seguras** y **cifradas** entre **dos sistemas**
+- **23 telnet**:  **Protocolo** de **red** que permite la **comunicación bidireccional interactiva basada** en **texto entre dos computadoras** o **dispositivos**
+- **25 smtp**:  **Protocolo** estándar utilizado para **enviar correos electrónicos** a través de **internet**
+- **8080 http**:  **Protocolo** de **comunicación** que se utiliza para **transferir información entre un cliente (como un navegador web)** y **un servidor web**
+- **443 ssl/tls -> https**:  **Versión segura** del **protocolo HTTP**
+- **445 microsoft-ds**:  **Protocolo** de **red** que se usa para **compartir recursos (archivos, impresoras)** en **redes Windows**
+- **3306 mysql**:  **Sistema** de **gestión** de **base de datos relacional**
 
 # Escalada de privilegios
-- **sudo -l** 
-- **find / -perm -4000 2>/dev/null**
-- **ss -tuln** 
-- **ps- aux**
-- **/home/ETSCTF/.ssh/id_rsa** 
-- **/etc/cron.d**
+- **sudo -l**  R= **Listar** los **privilegios** de **sudo** que tiene el **usuario actual**
+- **find / -perm -4000 2>/dev/null**  R= **Buscar archivos** con el **bit SUID activado** en **todo** el **sistema**
+- **ss -tuln**  R= **Mostrar puertos abiertos** y **servicios escuchando**
+- **ps- aux**  R= **Muestra** una **lista** de **todos** los **procesos** que se están **ejecutando** en el **sistema**
+- **/home/ETSCTF/.ssh/id_rsa**  R= **Corresponde** a una **clave privada** **SSH** para el **usuario ETSCTF**
+- **/etc/cron.d**  R= **Tareas** que se **ejecuta** cada **cierto tiempo** (se usa **pspy** y es casi lo mismo que **ps -aux**)
 
 
 
