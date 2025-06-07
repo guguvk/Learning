@@ -52,7 +52,10 @@ l "Letra l" # Hace referencia a que es un enlace simbolico
     rwx        rwx    rwx
 propiertario  grupo  otros
 ```
-- Se pueden representar con **numeros   4** -> **READ   2** -> **WRITE   1** -> **EXEC**
+- Se pueden representar con **numeros**
+- **READ (r)** -> **4**
+- **WRITE (w)** -> **2**
+- **EXEC (x)** -> **1**
 ```
    400       777        536
 r-------- rwxrwxrwx  r-x-wxrw-
