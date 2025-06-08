@@ -19,7 +19,7 @@
 - `<` **Hace** la **entrada** de una **cadena** a un **comando**
 
 # Conceptos basicos
-- **Que** es un **Rabbit Hole**?  R= **Estado** o **situación** complejamente **extraño** o **difícil**
+- **Que** es un **HoneyPot**?  R= **Estado** o **situación** complejamente **extraño** o **difícil**
 - **Que** es **estar** en **escucha**?  R= **Estar esperando** una **conexión**
 - **Que** es el **fuzzing**?  R= **Buscar directorios ocultos** mediante **Fuerza Bruta**
 - **Que** es un **exploit**?  R= **código** o **programa malicioso diseñado** para **aprovechar vulnerabilidades** en un **sistema**
