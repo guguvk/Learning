@@ -77,8 +77,16 @@ r-------- rwxrwxrwx  r-x-wxrw-
 - **/home/ETSCTF/.ssh/id_rsa**  R= **Corresponde** a una **clave privada** **SSH** para el **usuario ETSCTF**
 - **/etc/cron.d**  R= **Tareas** que se **ejecuta** cada **cierto tiempo** (se usa **pspy** y es casi lo mismo que **ps -aux**)
 
-
-
-
-
-
+# Credenciales por defecto
+- **admin admin123 admin1234 admin1234..8**
+- **Admin Admin123 Admin1234 Admin1234..8**
+- **password password123 password1234 password1234..8**
+- **Password Password123 Password1234 Password1234..8**
+- **Empty**
+- **guest**
+- **root**
+- **toor**
+- **123 1234 123456**
+- **administrator**
+- **user**
+- **test**
